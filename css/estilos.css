@@ -1,0 +1,43 @@
+*{
+    margin: 20px;
+    padding: 0px;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    border: 6px solid wheat;
+    background: black;
+}
+
+.cuadrado {
+    width: 100px; 
+    height: 100px;
+    margin: auto; 
+    border: 0px;
+    background: #428bca;
+}
+
+.cuadrado-tricolor {
+    width: 0; 
+    height: 0; 
+    margin: auto;
+    border-left: 100px solid #428bca;
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid red;
+}
+
+.circulo-tricolor {
+    width:0;
+    height:0;
+    margin: auto;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #428bca;
+    border-left: 50px solid #f0ad4e;
+    border-bottom: 50px solid #5cb85c;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
