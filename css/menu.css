@@ -8,6 +8,7 @@ nav {
 .menu {
     display: flex;
     align-items: center;
+    padding-left: 70px;
 }
 
 .menu li {
@@ -21,5 +22,3 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-
-
